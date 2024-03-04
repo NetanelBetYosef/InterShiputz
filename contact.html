@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="assets/img/favicon.ico"
+      type="image/x-icon"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css"
+    />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <title>יצירת קשר</title>
+  </head>
+  <body>
+    <header class="header header-pages" id="header">
+      <nav class="nav container">
+        <a href="index.html" class="nav__logo">InterShiputz</a>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="index.html" class="nav__link">עמוד הבית</a>
+            </li>
+            <li class="nav__item">
+              <a href="about.html" class="nav__link">קצת \ הרבה עלינו</a>
+            </li>
+            <li class="nav__item">
+              <a href="workgmar.html" class="nav__link">עבודות גמר</a>
+            </li>
+            <li class="nav__item">
+              <a href="workgan.html" class="nav__link">עבודות גן</a>
+            </li>
+            <li class="nav__item">
+              <a href="workshel.html" class="nav__link">עבודות שלד</a>
+            </li>
+            <li class="nav__item">
+              <a href="workmeaz.html" class="nav__link">עבודות עם מעצבים</a>
+            </li>
+            <li class="nav__item">
+              <a href="contact.html" class="button">יצירת קשר</a>
+            </li>
+
+          </ul>
+
+          <div class="nav__close" id="nav-close">
+            <i class="ri-close-line"></i>
+          </div>
+        </div>
+
+        <div class="nav__actions">
+          <i class="ri-moon-line change-theme" id="theme-button"></i>
+          <div class="nav__toggle" id="nav-toggle">
+            <i class="ri-apps-2-line"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="main">
+      <section class="contact section">
+        <h2 class="section__title">
+          בואו נדבר<br />
+          על הפרוייקט שלכם
+        </h2>
+
+        <div class="contact__page container grid">
+          <form action="" class="contact__form grid" id="contact-form">
+            <div class="contact__group grid">
+              <div class="contact__box">
+                <input
+                  required
+                  type="text"
+                  name="user_name"
+                  id="name"
+                  placeholder="הכנס\י שם פרטי"
+                  class="contact__input"
+                />
+                <label for="name" class="contact__label">שם פרטי</label>
+              </div>
+
+              <div class="contact__box">
+                <input
+                  required
+                  type="email"
+                  name="user_email"
+                  id="email"
+                  placeholder="הכנס\י כתובת מייל"
+                  class="contact__input"
+                />
+                <label for="email" class="contact__label">כתובת מייל</label>
+              </div>
+            </div>
+
+            <div class="contact__box contact__area">
+              <textarea
+                required
+                name="user_message"
+                id="message"
+                placeholder="הכנס\י הודעה"
+                class="contact__input"
+              ></textarea>
+              <label for="message" class="contact__label">הודעה</label>
+            </div>
+
+            <p class="contact__message" id="contact-message"></p>
+            <button type="submit" class="contact__send button">שליחה</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+   
+    <footer class="footer">
+      <div class="footer__container container grid">
+        <div class="footer__content grid">
+          <a href="index.html" class="footer__logo">אינטר-שיפוץ</a>
+          <h2 class="home__profession dark__texts">עבודות גן בניה ושיפוצים</h2>
+          <h2 class="home__profession dark__texts">InterShiputz</h2>
+          <ul class="footer__links">
+            <li>
+              <a href="contact.html" class="footer__link">יצירת קשר</a>
+            </li>
+            <li>
+              <a href="about.html" class="footer__link">קצת \ הרבה עלינו</a>
+            </li>
+          </ul>
+
+          <div class="footer__social">
+            <a href="https://www.facebook.com/profile.php?id=61556637015525"
+            target="_blank"
+            class="footer__social-link">
+            <i class="ri-facebook-line"></i></a>
+            <a
+              href="https://www.instagram.com/"
+              target="_blank"
+              class="footer__social-link"
+              ><i class="ri-instagram-line"></i></a>
+          </div>
+        </div>
+
+        <span class="footer__copy">
+          &#169; All Rights Reserved By <span style="color: black; text-decoration: underline;"> InterShiputz </span><br>
+          &#169; Developed By <span style="color: black; text-decoration: underline;">NETANEL BET YOSEF</span>
+        </span>
+      </div>
+    </footer>
+    <script src="assets/js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script src="assets/js/contact.js"></script>
+  </body>
+</html>
